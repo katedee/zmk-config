@@ -1,10 +1,12 @@
 # 34-Key ZMK Layout (Sweep / Urchin / Forager)
 
-| [Ferris Sweep](https://github.com/davidphilipbarr/Sweep)                                                                                  | [Urchin](https://github.com/duckyb/urchin)                                                                                          | [Forager](https://github.com/carrefinho/forager)                                                                                              |
-| ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img width="250" height="250" alt="Ferris Sweep" src="https://github.com/user-attachments/assets/b81f97ac-0166-47d5-a392-54801568a16a" /> | <img width="250" height="250" alt="Urchin" src="https://github.com/user-attachments/assets/3eb89138-079e-4ab2-a906-678a655aec41" /> | <img width="250" height="250" alt="Forager keyboard" src="https://github.com/user-attachments/assets/5efa6680-a84d-45ea-9c31-fbd49ce2de95" /> |
+| [Ferris Sweep](https://github.com/davidphilipbarr/Sweep)                                                                                  | 
+| ----------------------------------------------------------------------------------------------------------------------------------------- | 
+| <img width="250" height="250" alt="Ferris Sweep" src="https://github.com/user-attachments/assets/b81f97ac-0166-47d5-a392-54801568a16a" /> |
 
-This repo contains my personal [ZMK](https://zmk.dev/) keymap for three different 34-key boards. The logical layout is shared, while board-specific firmware targets and shields are handled in `build.yaml`.
+This repo contains my personal [ZMK](https://zmk.dev/) keymap for my key boards. This repo is a fork of [MSmaili's zmk config](https://github.com/MSmaili/zmk-config/tree/main), with some minor changes (just adapted to my keyboards and a few keymap tweaks to my preferences).
+
+The logical layout is shared, while board-specific firmware targets and shields are handled in `build.yaml`.
 
 ## One Shared Keymap
 
