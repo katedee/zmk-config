@@ -31,10 +31,10 @@ layers:
   - ','
   - .
   - {t: /, h: '$$mdi:flash$$'}
-  - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: ↹, h: '$$phosphor:regular/control$$'}
-  - {t: ⏎, h: '$$phosphor:regular/arrow-fat-up$$'}
+  - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: Bspc, h: NAV}
+  - {t: ⏎, h: '$$phosphor:regular/arrow-fat-up$$'}
   SYM:
   - '!'
   - '@'
@@ -66,8 +66,8 @@ layers:
   - <
   - '>'
   - '?'
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NAV:
@@ -103,8 +103,8 @@ layers:
   - Cmd + ]
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   FNC:
   - F1
   - F2
@@ -136,10 +136,10 @@ layers:
   - $$mdi:play-pause$$
   - $$mdi:skip-forward$$
   - $$mdi:volume-high$$
-  - {type: held}
-  - Toggle SYS
   - ''
+  - {t: Toggle SYS, type: held}
   - {type: held}
+  - ''
   MSE: ['', Back Click, Middle Click, Forward Click, '', '', Scroll ↑, Mouse ↑, '', '', Scroll ←, '$$phosphor:regular/mouse-left-click$$', Scroll ↓, '$$phosphor:regular/mouse-right-click$$',
     Scroll →, '', Mouse ←, Mouse ↓, Mouse →, '', '', Drag On, Drag Off, '', '', '', '', '', '', '', MSF, '$$phosphor:regular/mouse-left-click$$', '$$phosphor:regular/mouse-right-click$$',
     Toggle MSE]
