@@ -11,16 +11,16 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: '$$phosphor:regular/control$$'}
+  - {t: A, h: '$$phosphor:regular/arrow-fat-up$$'}
   - {t: S, h: '$$phosphor:regular/option$$'}
-  - {t: D, h: '$$phosphor:regular/command$$'}
-  - {t: F, h: '$$phosphor:regular/arrow-fat-up$$'}
+  - {t: D, h: '$$phosphor:regular/control$$'}
+  - {t: F, h: '$$phosphor:regular/command$$'}
   - G
   - H
-  - {t: J, h: '$$phosphor:regular/arrow-fat-up$$'}
-  - {t: K, h: '$$phosphor:regular/command$$'}
+  - {t: J, h: '$$phosphor:regular/command$$'}
+  - {t: K, h: '$$phosphor:regular/control$$'}
   - {t: L, h: '$$phosphor:regular/option$$'}
-  - {t: ;, h: '$$phosphor:regular/control$$'}
+  - {t: ;, h: '$$phosphor:regular/arrow-fat-up$$'}
   - {t: Z, h: '$$mdi:flash$$'}
   - X
   - C
@@ -46,16 +46,16 @@ layers:
   - '*'
   - (
   - )
-  - {t: '=', h: '$$phosphor:regular/control$$'}
+  - {t: '=', h: '$$phosphor:regular/arrow-fat-up$$'}
   - {t: _, h: '$$phosphor:regular/option$$'}
-  - {t: '{', h: '$$phosphor:regular/command$$'}
-  - {t: '[', h: '$$phosphor:regular/arrow-fat-up$$'}
+  - {t: '{', h: '$$phosphor:regular/control$$'}
+  - {t: '[', h: '$$phosphor:regular/command$$'}
   - /
   - \
-  - {t: ']', h: '$$phosphor:regular/arrow-fat-up$$'}
-  - {t: '}', h: '$$phosphor:regular/command$$'}
+  - {t: ']', h: '$$phosphor:regular/command$$'}
+  - {t: '}', h: '$$phosphor:regular/control$$'}
   - {t: '-', h: '$$phosphor:regular/option$$'}
-  - {t: ':', h: '$$phosphor:regular/control$$'}
+  - {t: ':', h: LSHIFT}
   - '~'
   - '|'
   - '`'
@@ -81,16 +81,16 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: StartLn, h: '$$phosphor:regular/control$$'}
+  - {t: StartLn, h: LSHIFT}
   - {t: Prev Word, h: '$$phosphor:regular/option$$'}
-  - {t: Del Word, h: '$$phosphor:regular/command$$'}
-  - {t: Next Word, h: '$$phosphor:regular/arrow-fat-up$$'}
+  - {t: Del Word, h: '$$phosphor:regular/control$$'}
+  - {t: Next Word, h: '$$phosphor:regular/command$$'}
   - EndLn
   - ←
-  - {t: ↓, h: '$$phosphor:regular/arrow-fat-up$$'}
-  - {t: ↑, h: '$$phosphor:regular/command$$'}
+  - {t: ↓, h: '$$phosphor:regular/command$$'}
+  - {t: ↑, h: '$$phosphor:regular/control$$'}
   - {t: →, h: '$$phosphor:regular/option$$'}
-  - {t: ⌦, h: '$$phosphor:regular/control$$'}
+  - {t: ⌦, h: LSHIFT}
   - Cmd + [
   - Toggle MSE
   - Meh + H
@@ -116,16 +116,16 @@ layers:
   - F8
   - F9
   - F10
-  - $$phosphor:regular/control$$
-  - $$phosphor:regular/option$$
   - $$phosphor:regular/command$$
-  - $$phosphor:regular/arrow-fat-up$$
+  - $$phosphor:regular/option$$
+  - $$phosphor:regular/control$$
+  - $$phosphor:regular/command$$
   - F11
   - F12
-  - $$phosphor:regular/arrow-fat-up$$
   - $$phosphor:regular/command$$
-  - $$phosphor:regular/option$$
   - $$phosphor:regular/control$$
+  - $$phosphor:regular/option$$
+  - LSHIFT
   - {t: '$$mdi:volume-medium$$', h: '$$mdi:volume-off$$'}
   - $$mdi:skip-backward$$
   - ''
@@ -218,10 +218,10 @@ combos:
   k: Delete
   l: [BASE]
 - p: [21, 22]
-  k: Copy
+  k: RCTRL(C)
   l: [BASE]
 - p: [22, 23]
-  k: Paste
+  k: RCTRL(V)
   l: [BASE]
 - p: [6, 7, 8]
   k: Scroll ↑
@@ -240,7 +240,7 @@ combos:
   l: [BASE]
   draw_separate: true
 - p: [21, 23]
-  k: Cut
+  k: RCTRL(X)
   l: [BASE]
   a: bottom
   o: 0.2
