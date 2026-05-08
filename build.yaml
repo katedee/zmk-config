@@ -19,13 +19,13 @@ include:
     artifact-name: sweep_dongle
 
   # Cygnus
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: corne_left
     artifact-name: cygnus_left_peripheral
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: corne_left
     artifact-name: cygnus_left_central
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: corne_right
     artifact-name: cygnus_right
 
