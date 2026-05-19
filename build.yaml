@@ -20,13 +20,16 @@ include:
 
   # Cygnus
   - board: nice_nano//zmk
-    shield: corne_left
+    shield: cygnus_left
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: cygnus_left_peripheral
   - board: nice_nano//zmk
-    shield: corne_left
+    shield: cygnus_left
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
     artifact-name: cygnus_left_central
   - board: nice_nano//zmk
-    shield: corne_right
+    shield: cygnus_right
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: cygnus_right
 
   # Reset shields
