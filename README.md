@@ -1,10 +1,12 @@
-# 34-Key ZMK Layout (Sweep / Urchin / Forager)
+# 34-36 Key ZMK Layout (Sweep / Dactyl Cygnus)
+> This is largely an exact fork of [MSmaili's ZMK Config](https://github.com/MSmaili/zmk-config), with small tweaks to my layout preferences and the addition of some 36 key boards.
 
-| [Ferris Sweep](https://github.com/davidphilipbarr/Sweep)                                                                                  | [Urchin](https://github.com/duckyb/urchin)                                                                                          | [Forager](https://github.com/carrefinho/forager)                                                                                              |
-| ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img width="250" height="200" alt="Ferris Sweep" src="https://github.com/user-attachments/assets/b81f97ac-0166-47d5-a392-54801568a16a" /> | <img width="250" height="200" alt="Urchin" src="https://github.com/user-attachments/assets/3eb89138-079e-4ab2-a906-678a655aec41" /> | <img width="250" height="200" alt="Forager keyboard" src="https://github.com/user-attachments/assets/5efa6680-a84d-45ea-9c31-fbd49ce2de95" /> |
+| [Ferris Sweep](https://github.com/davidphilipbarr/Sweep)                                                                                  | [Dactyl Cygnus](https://github.com/juhakaup/keyboards/tree/main/Cygnus%20v1.0)                                                                                          | 
+| ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | 
+| <img width="287" height="200" alt="image" src="https://github.com/user-attachments/assets/17090db1-ac1c-423b-a095-35f0c4d5cc9d" /> | <img width="287" height="200" alt="image" src="https://github.com/user-attachments/assets/9872b27a-4a76-4b9f-9321-413fef09e396" /> |
 
-This repo contains my personal [ZMK](https://zmk.dev/) layout for three different 34-key boards. All three share the same logical keymap, while `build.yaml` handles the board-specific firmware targets.
+
+This repo contains my personal [ZMK](https://zmk.dev/) layout for different 34-36 key boards. All three share the same logical keymap, while `build.yaml` handles the board-specific firmware targets. 
 
 The goal is not to build the most exotic layout possible. It is a pragmatic 34-key setup that stays close to normal QWERTY, keeps programming symbols easy to reach, and smooths over the annoying differences between Linux and macOS.
 
