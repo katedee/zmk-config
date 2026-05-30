@@ -1,4 +1,4 @@
-layout: {zmk_keyboard: cygnus}
+layout: {zmk_keyboard: cygnus, layout_name: foostan_corne_5col_layout}
 layers:
   BASE:
   - W

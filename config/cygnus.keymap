@@ -1,2 +1,8 @@
 #include "hardware_layouts/36-keys.h"
 #include "includes/base.dtsi"
+
+/ {
+    chosen {
+        zmk,physical-layout = &foostan_corne_5col_layout;
+    };
+};
