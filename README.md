@@ -138,7 +138,7 @@ Build notes:
 ## Layer Map
 
 <p align="center">
-<img src="./tools/keymap-drawer/cradio.svg" alt="Shared 34-key layout preview" width="1024">
+<img src="./tools/keymap-drawer/corne.svg" alt="Shared 34-36 key layout preview" width="1024">
 </p>
 
 ## Credits
