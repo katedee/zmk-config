@@ -31,10 +31,12 @@ layers:
   - ','
   - .
   - {t: /, h: '$$mdi:flash$$'}
+  - E
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: ↹, h: '$$phosphor:regular/control$$'}
   - {t: ⏎, h: '$$phosphor:regular/arrow-fat-up$$'}
   - {t: Bspc, h: NAV}
+  - I
   SYM:
   - '!'
   - '@'
@@ -66,7 +68,9 @@ layers:
   - <
   - '>'
   - '?'
+  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -104,7 +108,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   FNC:
   - F1
   - F2
@@ -136,13 +142,49 @@ layers:
   - $$mdi:play-pause$$
   - $$mdi:skip-forward$$
   - $$mdi:volume-high$$
+  - {t: ▽, type: trans}
   - {type: held}
   - Toggle SYS
   - ''
   - {type: held}
-  MSE: ['', Back Click, Middle Click, Forward Click, '', '', Scroll ↑, Mouse ↑, '', '', Scroll ←, '$$phosphor:regular/mouse-left-click$$', Scroll ↓, '$$phosphor:regular/mouse-right-click$$',
-    Scroll →, '', Mouse ←, Mouse ↓, Mouse →, '', '', Drag On, Drag Off, '', '', '', '', '', '', '', MSF, '$$phosphor:regular/mouse-left-click$$', '$$phosphor:regular/mouse-right-click$$',
-    Toggle MSE]
+  - {t: ▽, type: trans}
+  MSE:
+  - ''
+  - Back Click
+  - Middle Click
+  - Forward Click
+  - ''
+  - ''
+  - Scroll ↑
+  - Mouse ↑
+  - ''
+  - ''
+  - Scroll ←
+  - $$phosphor:regular/mouse-left-click$$
+  - Scroll ↓
+  - $$phosphor:regular/mouse-right-click$$
+  - Scroll →
+  - ''
+  - Mouse ←
+  - Mouse ↓
+  - Mouse →
+  - ''
+  - ''
+  - Drag On
+  - Drag Off
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - MSF
+  - $$phosphor:regular/mouse-left-click$$
+  - $$phosphor:regular/mouse-right-click$$
+  - Toggle MSE
+  - {t: ▽, type: trans}
   MSF:
   - ''
   - Back Click
@@ -174,10 +216,12 @@ layers:
   - ''
   - ''
   - ''
+  - {t: ▽, type: trans}
   - {type: held}
   - $$phosphor:regular/mouse-left-click$$
   - $$phosphor:regular/mouse-right-click$$
   - ''
+  - {t: ▽, type: trans}
   SYS:
   - ''
   - ''
@@ -209,10 +253,12 @@ layers:
   - Out USB
   - Out BT
   - BT Clear
+  - {t: ▽, type: trans}
   - ''
   - Toggle SYS
   - ''
   - Base
+  - {t: ▽, type: trans}
 combos:
 - p: [12, 13]
   k: Delete
